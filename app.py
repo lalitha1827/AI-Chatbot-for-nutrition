@@ -33,8 +33,8 @@ import re
 
 class AI_Assistant:
     def __init__(self):
-        self.gemini_api_key = "AIzaSyCHTS6Dk2EQi30D4p5j_a2Yqr4kw0vt5UM"  # <-- Replace with your Gemini API key
-        self.elevenlabs_api_key = "sk_2e9803b5bd5f9b14cc22d9898813ebb371bd721a536388ac"
+        self.gemini_api_key = "google_api_key"  # <-- Replace with your Gemini API key
+        self.elevenlabs_api_key = "elevenlabs_api_key"
         self.full_transcript = [
             {"role":"system", "content":"You are a voice-interactive personalized diet planner. Your role is to ask users a series of health and dietary questions, understand their responses, and generate a custom diet plan tailored to their needs. The plan should include breakfast, lunch, and dinner suggestions, each with 2 and 3 items and approximate calories per item. Be clear, concise, and ensure the recommendations match the user's health history, goals, and food preferences."},
         ]
